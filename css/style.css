@@ -12,8 +12,8 @@ body{
 }
 
 ::selection{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #0000FF;
+    background: #00BFFF;
 }
 
 .start_btn,
@@ -24,8 +24,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(255,182,193), 
-                0 6px 20px 0 rgba(255,105,180);
+    box-shadow: 0 4px 8px 0 rgba(173,216,230), 
+                0 6px 20px 0 rgba(25,25,112);
 }
 
 .info_box.activeInfo,
@@ -40,23 +40,23 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #FF69B4;
+    color: #00FFFF;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #FF1493;
+    background:#00FFFF;
     cursor: pointer;
     transition: 1s ease-in-out;
 }
 .start_btn button:hover{
     transform: scale(1.5);
-    color: rgb(255,105,180);
+    color: rgb(224,255,255);
 }
 
 .info_box{
     width: 540px;
-    background: #FF1493;
+    background: #AFEEEE;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -114,7 +114,7 @@ body{
 
 .quiz_box{
     width: 550px;
-    background: #FF1493;
+    background: #7FFFD4;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -127,12 +127,12 @@ body{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #FF1493;
+    background: #40E0D0;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 3px 5px 1px rgba(255,105,180);
+    box-shadow: 0px 3px 5px 1px rgba(95,158,160);
 }
 
 .quiz_box header .title{
@@ -141,9 +141,9 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #FF69B4;
-    background: #FF1493;
-    border: 1px solid #b8daff;
+    color: #48D1CC;
+    background: #00CED1;
+    border: 1px solid #4682B4;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -164,11 +164,11 @@ body{
     font-weight: 500;
     height: 30px;
     width: 45px;
-    color: #FF69B4;
+    color: #B0C4DE;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #FF1493;
+    background: #B0E0E6;
     border: 1px solid #343a40;
     user-select: none;
 }
@@ -178,12 +178,12 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #FF1493;
+    background: #ADD8E6;
 }
 
 section{
     padding: 25px 30px 20px 30px;
-    background: #FF1493;
+    background: #87CEEB;
 }
 
 section .que_text{
@@ -215,20 +215,20 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #87CEFA;
+    background: #00BFFF;
     border: 1px solid #b8daff;
 }
 
 section .option_list .option.correct{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #1E90FF;
+    background: #6495ED;
     border: 1px solid #c3e6cb;
 }
 
 section .option_list .option.incorrect{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #4169E1;
+    background: #0000FF;
     border: 1px solid #f5c6cb;
 }
 
@@ -248,14 +248,14 @@ section .option_list .option .icon{
     line-height: 24px;
 }
 .option_list .option .icon.tick{
-    color: #FF69B4;
+    color: #0000CD;
     border-color: #23903c;
-    background: #FF1493;
+    background: #00008B;
 }
 
 .option_list .option .icon.cross{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #000080;
+    background:#191970;
     border-color: #a42834;
 }
 
@@ -290,9 +290,9 @@ footer button{
     cursor: pointer;
     border: none;
     outline: none;
-    color: #FF69B4;
+    color: #ADFF2F;
     border-radius: 5px;
-    background: #FF1493;
+    background: #7FFF00;
     border: 1px solid #007bff;
     line-height: 10px;
     opacity: 0;
@@ -302,7 +302,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #FF1493;
+    background: #7CFC00;
 }
 
 footer button.show{
@@ -312,7 +312,7 @@ footer button.show{
 }
 
 .result_box{
-    background: #FF1493;
+    background: #00FF00;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -328,7 +328,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #FF69B4;
+    color: #32CD32;
     margin-bottom: 10px;
 }
 
@@ -369,8 +369,8 @@ footer button.show{
 }
 
 .buttons button.restart{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #98FB98;
+    background: #90EE90;
 }
 
 .buttons button.restart:hover{
@@ -378,11 +378,11 @@ footer button.show{
 }
 
 .buttons button.quit{
-    color: #FF69B4;
+    color: #00FA9A;
     background: #FF1493;
 }
 
 .buttons button.quit:hover{
-    color: #FF69B4;
-    background: #FF1493;
+    color: #00FF7F;
+    background: #3CB371;
 }
